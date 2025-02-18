@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const data = await response.json();
       if (response.ok) {
-        alert('Login successful');
-        // Redirecionar ou exibir a lista de telefones
+        // Redireciona para a página home após o login
+        window.location.href = 'home.html';
       } else {
         alert('Login failed');
       }

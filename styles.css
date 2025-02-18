@@ -46,3 +46,15 @@ button:hover {
 #register-section {
   display: none;
 }
+#phoneList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#phoneList li {
+  background: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
